@@ -13,7 +13,9 @@ const App = () => {
       <br />
       <br />
       <input type="text" onChange={grab} />
-      <h4>{text}</h4>
+      <h4>{text}!</h4>
+      <br/>
+      <hr/>
     </div>
   );
 }
