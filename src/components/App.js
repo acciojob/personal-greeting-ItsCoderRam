@@ -13,7 +13,7 @@ const App = () => {
       <br />
       <br />
       <input type="text" onChange={grab} />
-      <h4>Hello {text} !</h4>
+      <p>Hello {text} !</p>
       <br/>
       <hr/>
     </div>
