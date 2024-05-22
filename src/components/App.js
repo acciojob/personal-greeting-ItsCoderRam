@@ -12,8 +12,8 @@ const App = () => {
       <span>Enter your name:</span>
       <br />
       <br />
-      <input type="text" onChange={grab} />
-      <p>Hello {text} !</p>
+      <input type="text" value={text} onChange={grab} />
+      {text && <p>Hello {text} !</p>}
       <br/>
       <hr/>
     </div>
