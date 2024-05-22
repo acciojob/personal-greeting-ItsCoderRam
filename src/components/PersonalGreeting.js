@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 function PersonalGreeting() {
- const [name, setName] = useState("");
+ const [name, setName] = useState('');
  return (
    <div>
      <p>Enter your name:</p>
