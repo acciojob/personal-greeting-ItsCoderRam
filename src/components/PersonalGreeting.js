@@ -8,7 +8,7 @@ const greetMessage = (e) => {
 }
  return (
    <div>
-     <p>Enter your name:</p>
+     <p></p>
      <input
        type="text"
        value={name}
