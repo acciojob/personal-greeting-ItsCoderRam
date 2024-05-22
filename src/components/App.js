@@ -9,7 +9,7 @@ const App = () => {
   }
   return (
     <div className="App">
-      <span>Enter your name:</span>
+      <p>Enter your name:</p>
       <br />
       <br />
       <input type="text" value={text} onChange={grab} />
