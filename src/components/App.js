@@ -3,20 +3,20 @@ import React, { useState } from "react";
 import './../styles/App.css';
 
 const App = () => {
-  const [text, setText] = useState("");
+  const [name, setName] = useState("");
   // function grab(e) {
   //   setText(e.target.value);
   // }
   return (
     <div className="App">
-      <p>Enter your name:</p>
-      <br />
-      <br />
-      <input type="text" value={text} onChange={(e) => setText(e.target.value)} />
-      {text ? <p>Hello {text}!</p> : null}
-      <br/>
-      <hr/>
-    </div>
+     <p>Enter your name:</p>
+     <input
+       type="text"
+       value={name}
+       onChange={(e) => setName(e.target.value)}
+     />
+     {name ? <p>Hello {name}!</p> : null}
+   </div>
   );
 }
 
