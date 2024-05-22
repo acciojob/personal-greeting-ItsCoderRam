@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import './../styles/App.css';
 
 const App = () => {
-  const [text, setText] = useState();
+  const [text, setText] = useState("");
   function grab(e) {
     setText(e.target.value);
   }
