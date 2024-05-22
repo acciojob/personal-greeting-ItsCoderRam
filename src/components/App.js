@@ -1,23 +1,11 @@
-
-import React, { useState } from "react";
+import React from "react";
 import './../styles/App.css';
-
+import PersonalGreeting from "./PersonalGreeting";
 const App = () => {
-  const [name, setName] = useState("");
-  // function grab(e) {
-  //   setText(e.target.value);
-  // }
   return (
-    <div className="App">
-     <p>Enter your name:</p>
-     <input
-       type="text"
-       value={name}
-       onChange={(e) => setName(e.target.value)}
-     />
-     {name ? <p>Hello {name}!</p> : null}
-   </div>
-  );
+    <div>
+      <PersonalGreeting />
+    </div>
+  )
 }
-
 export default App
