@@ -12,7 +12,7 @@ const App = () => {
       <p>Enter your name:</p>
       <br />
       <br />
-      <input type="text" value={text} onChange={(e) => setName(e.target.value)} />
+      <input type="text" value={text} onChange={(e) => setText(e.target.value)} />
       {text ? <p>Hello {text}!</p> : null}
       <br/>
       <hr/>
